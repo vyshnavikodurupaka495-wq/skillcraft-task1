@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Navigation Menu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar" id="navbar">
+    <a href="#home" class="logo">NOVA<span>.</span></a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Toggle navigation"
+      aria-expanded="false">
+      ☰
+    </button>
+
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a class="nav-link active" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#services">Services</a></li>
+        <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
+        <li><a class="nav-link contact-link" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">DESIGN • BUILD • CREATE</p>
+        <h1>Ideas into <span>impact.</span></h1>
+        <p class="hero-copy">
+          A modern interactive navigation experience
+          built using HTML, CSS, and JavaScript.
+        </p>
+        <a class="primary-button" href="#about">
+          Explore More ↘
+        </a>
+      </div>
+      <div class="hero-orb"></div>
+    </section>
+
+    <section class="section content-section" id="about">
+      <p class="eyebrow">01 / ABOUT</p>
+      <h2>Simple by design.</h2>
+      <p>
+        This website demonstrates a fixed navigation bar
+        that remains visible as you scroll. Hover over menu
+        items to see their color and style change.
+      </p>
+    </section>
+
+    <section class="section content-section alternate" id="services">
+      <p class="eyebrow">02 / SERVICES</p>
+      <h2>Built for interaction.</h2>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <span>01</span>
+          <h3>Fixed Navigation</h3>
+          <p>The navigation stays at the top of the screen.</p>
+        </article>
+        <article class="feature-card">
+          <span>02</span>
+          <h3>Hover Effects</h3>
+          <p>Menu items change color when you hover over them.</p>
+        </article>
+        <article class="feature-card">
+          <span>03</span>
+          <h3>Scroll Effects</h3>
+          <p>The navigation changes style when you scroll.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section content-section" id="portfolio">
+      <p class="eyebrow">03 / PORTFOLIO</p>
+      <h2>Made to feel natural.</h2>
+      <p>
+        You can customize this section to display your
+        projects, designs, work, or personal portfolio.
+      </p>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <p class="eyebrow">04 / CONTACT</p>
+      <h2>Let's make something great.</h2>
+      <a class="primary-button" href="mailto:hello@example.com">
+        Get in Touch ↗
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 NOVA. Designed for the web.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
